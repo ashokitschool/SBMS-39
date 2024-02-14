@@ -1,0 +1,11 @@
+package in.ashokit;
+
+public class CreditCardPayment implements IPayment {
+
+	@Override
+	public boolean payBill(double amt) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

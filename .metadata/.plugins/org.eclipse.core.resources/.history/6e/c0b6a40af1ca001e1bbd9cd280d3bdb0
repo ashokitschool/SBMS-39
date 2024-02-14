@@ -1,0 +1,10 @@
+package in.ashokit.beans;
+
+public class MyAppTest {
+
+	public static void main(String[] args) {
+		
+		ApplicationContext context = 
+		
+	}
+}

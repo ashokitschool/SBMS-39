@@ -1,0 +1,12 @@
+package in.ashokit;
+
+public class DebitCardPayment implements IPayment{
+	
+	@Override
+	public boolean payBill(double amt) {
+		System.out.println("debitcard payment processing...");
+		//loigc
+		return true;
+	}
+
+}

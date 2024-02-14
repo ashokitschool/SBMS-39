@@ -1,0 +1,12 @@
+package in.ashokit;
+
+public class UserService extends UserDao{
+	
+	public void printUserName(Integer id) {
+		
+		String uname = super.getUserNameById(id);
+		System.out.println(uname);
+		
+	}
+
+}

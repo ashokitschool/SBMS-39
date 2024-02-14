@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="in.ashokit.UserDao"/>
+    <fullyQualifiedTypeName name="in.ashokit.UserService"/>
+    <fullyQualifiedTypeName name="in.ashokit.IPayment"/>
+    <fullyQualifiedTypeName name="in.ashokit.RestaurantService"/>
+    <fullyQualifiedTypeName name="in.ashokit.CreditCardPayment"/>
+    <fullyQualifiedTypeName name="in.ashokit.DebitCardPayment"/>
+</qualifiedTypeNameHistroy>
