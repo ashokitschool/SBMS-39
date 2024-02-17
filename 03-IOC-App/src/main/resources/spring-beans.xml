@@ -10,7 +10,6 @@
 	<bean id="rs" class="in.ashokit.beans.RestaurantService">
 		<property name="payment" ref="cp" />
 		<constructor-arg ref="dp" />
-		
 	</bean>
 
 

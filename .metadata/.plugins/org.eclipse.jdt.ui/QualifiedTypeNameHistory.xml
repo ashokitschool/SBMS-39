@@ -6,4 +6,14 @@
     <fullyQualifiedTypeName name="in.ashokit.RestaurantService"/>
     <fullyQualifiedTypeName name="in.ashokit.CreditCardPayment"/>
     <fullyQualifiedTypeName name="in.ashokit.DebitCardPayment"/>
+    <fullyQualifiedTypeName name="in.ashokit.beans.RestaurantService"/>
+    <fullyQualifiedTypeName name="in.ashokit.dao.IUserDao"/>
+    <fullyQualifiedTypeName name="in.ashokit.service.UserService"/>
+    <fullyQualifiedTypeName name="in.ashokit.service.UserServiceImpl"/>
+    <fullyQualifiedTypeName name="java.util.Base64"/>
+    <fullyQualifiedTypeName name="java.lang.Appendable"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="in.ashokit.PwdService"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ConfigurableApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 </qualifiedTypeNameHistroy>

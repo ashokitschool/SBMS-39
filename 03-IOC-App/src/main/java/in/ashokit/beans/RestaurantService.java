@@ -13,11 +13,6 @@ public class RestaurantService {
 		this.payment = payment;
 	}
 
-	public void setPayment(IPayment payment) {
-		System.out.println("setter-method called...");
-		this.payment = payment;
-	}
-
 	public void processPayment(double amt) {
 		boolean status = payment.payBill(amt);
 		if (status) {
