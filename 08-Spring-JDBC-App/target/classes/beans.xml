@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="ds"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/sbms39" />
+		<property name="username" value="root" />
+		<property name="password" value="ashokit@123" />
+	</bean>
+
+	<bean id="jt" class="org.springframework.jdbc.core.JdbcTemplate">
+		<constructor-arg name="dataSource" ref="ds" />
+	</bean>
+	
+	<bean id="bookDao" class="in.ashokit.dao.BookDaoImpl">
+		<property name="jdbcTemplate" ref="jt"/>
+	</bean>
+	
+	<bean id="bookService" class="in.ashokit.service.BookServiceImpl">
+		<property name="bookDao" ref="bookDao"/>
+	</bean>
+	
+</beans>
+
+
+
+
+
+
+
+
+

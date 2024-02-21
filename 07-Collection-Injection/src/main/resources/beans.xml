@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="student" class="in.ashokit.Student">
+
+		<property name="id" value="101" />
+		<property name="name" value="John" />
+		<property name="courses">
+			<list>
+				<value>Java</value>
+				<value>Python</value>
+				<value>DevOps</value>
+				<value>Java</value>
+			</list>
+		</property>
+		<property name="hobbies">
+			<set>
+				<value>Cricket</value>
+				<value>Music</value>
+				<value>Chatting</value>
+				<value>Music</value>
+			</set>
+		</property>
+		<property name="phnos">
+			<map>
+				<entry key="contact" value="123456" />
+				<entry key="whatsapp" value="7979798" />
+			</map>
+		</property>
+	</bean>
+
+</beans>
+
+
+
+
+
+
+
+
+

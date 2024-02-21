@@ -1,9 +1,0 @@
-package in.ashokit.beans;
-
-public class RestaurantService {
-	
-	private IPayment payment;
-	
-	
-
-}

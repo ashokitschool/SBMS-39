@@ -1,9 +1,0 @@
-package in.ashokit;
-
-public class UserDao {
-	
-	public String getUserNameById(Integer id) {
-		
-	}
-
-}
