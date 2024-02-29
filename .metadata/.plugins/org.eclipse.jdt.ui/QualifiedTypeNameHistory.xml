@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="in.ashokit.DebitCardPayment"/>
     <fullyQualifiedTypeName name="in.ashokit.beans.RestaurantService"/>
     <fullyQualifiedTypeName name="in.ashokit.dao.IUserDao"/>
-    <fullyQualifiedTypeName name="in.ashokit.service.UserService"/>
     <fullyQualifiedTypeName name="in.ashokit.service.UserServiceImpl"/>
     <fullyQualifiedTypeName name="java.util.Base64"/>
     <fullyQualifiedTypeName name="java.lang.Appendable"/>
@@ -25,4 +24,16 @@
     <fullyQualifiedTypeName name="in.ashokit.service.BookService"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="in.ashokit.util.AppSecurity"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.condition.ConditionalOnBean"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.ApplicationRunner"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="in.ashokit.dao.UserDao"/>
+    <fullyQualifiedTypeName name="in.ashokit.service.UserService"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 </qualifiedTypeNameHistroy>
