@@ -29,7 +29,9 @@ public class Application {
 		
 		// empService.getEmps();
 		
-		empService.callFindByMethods();
+		// empService.callFindByMethods();
+		
+		empService.callCustomQueries();
 	}
 
 }

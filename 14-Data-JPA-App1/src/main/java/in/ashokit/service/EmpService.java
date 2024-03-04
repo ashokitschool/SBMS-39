@@ -18,6 +18,18 @@ public class EmpService {
 		this.empRepo = empRepo;
 	}
 	
+	
+	public void callCustomQueries() {
+		//List<Employee> emps = empRepo.getAllEmpsHQL();
+		//emps.forEach(System.out::println);
+		
+		//Employee empById = empRepo.getEmpById(101);
+		//System.out.println(empById);
+		
+		List<Employee> emps = empRepo.getAllEmpsSQL();
+		emps.forEach(System.out::println);
+	}
+	
 	public void callFindByMethods() {
 		//List<Employee> emps = empRepo.findByEname("Ashok");
 		
