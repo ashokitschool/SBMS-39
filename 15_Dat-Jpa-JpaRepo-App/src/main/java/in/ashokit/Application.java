@@ -16,7 +16,9 @@ public class Application {
 		EmpService empService = context.getBean(EmpService.class);
 		
 		//empService.getAllEmps();
-		empService.getAllEmpsSort();
+		// empService.getAllEmpsSort();
+		// empService.getAllEmpsPagination();
+		empService.getAllEmpsWithFilter();
 	}
 
 }

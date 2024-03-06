@@ -7,17 +7,17 @@ import jakarta.persistence.Id;
 public class Employee {
 
 	@Id
-	private Integer eid;
+	private Integer eid; // null
 
 	private String ename;
 
 	private Double esalary;
 
-	public Integer getEid() {
+	public int getEid() {
 		return eid;
 	}
 
-	public void setEid(Integer eid) {
+	public void setEid(int eid) {
 		this.eid = eid;
 	}
 
