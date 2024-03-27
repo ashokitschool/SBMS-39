@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>User Form</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<style>
+		.error {
+			color: red;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<h2>User Form</h2>
+
+		<font color='green'>
+			<p th:text="${msg}"></p>
+		</font>
+
+		<form th:object="${user}" th:action="@{/user}" method="post">
+
+			<table>
+				<tr>
+					<td>Name : </td>
+					<td><input type="text" th:field="*{name}" /></td>
+					<td>
+						<p th:if="${#fields.hasErrors('name')}" th:errorclass="error" th:errors="*{name}" />
+					</td>
+				</tr>
+				<tr>
+					<td>Email : </td>
+					<td><input type="text" th:field="*{email}" /></td>
+					<td>
+						<p th:if="${#fields.hasErrors('email')}" th:errorclass="error" th:errors="*{email}" />
+					</td>
+				</tr>
+				<tr>
+					<td>Phno : </td>
+					<td><input type="number" th:field="*{phno}" /></td>
+					<td>
+						<p th:if="${#fields.hasErrors('phno')}" th:errorclass="error" th:errors="*{phno}" />
+					</td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td><input type="submit" value="submit" class="btn btn-primary" /></td>
+				</tr>
+
+			</table>
+
+		</form>
+
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
